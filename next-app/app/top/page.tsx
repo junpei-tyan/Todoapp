@@ -6,7 +6,7 @@ import Add from "@/components/Add";
 // import MyButton from "@/components/MyButton";
 // import Dot from "@/components/Dot";
 // import ErrorButton from "@/components/ErrorButton";
-import MyInput from "@/components/MyInput";
+// import MyInput from "@/components/MyInput";
 import { Children, useEffect, useState } from "react";
 
 export type Tasks = Array<{name : string; content: string}>;
@@ -44,7 +44,7 @@ function Top() {
 
             {/* <ErrorButton>ボタンちゃん</ErrorButton> */}
 
-            <MyInput></MyInput>
+            {/* <MyInput></MyInput> */}
         </>
     );
 }
